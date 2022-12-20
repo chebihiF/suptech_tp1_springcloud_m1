@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b92eb7af-95a1-4112-858b-a293b35e8750" name="Changes" comment="init customer-service v1">
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/services/CustomerServiceImpl.java" afterDir="false" />
+    <list default="true" id="b92eb7af-95a1-4112-858b-a293b35e8750" name="Changes" comment="init customer-service v2">
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/mappers/CustomerMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/services/CustomerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -75,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671562934838</updated>
-      <workItem from="1671562937654" duration="3960000" />
+      <workItem from="1671562937654" duration="5588000" />
     </task>
     <task id="LOCAL-00001" summary="init customer-service">
       <created>1671564731365</created>
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671565634736</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init customer-service v2">
+      <created>1671567044347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671567044347</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +120,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init customer-service" />
     <MESSAGE value="init customer-service v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="init customer-service v1" />
+    <MESSAGE value="init customer-service v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="init customer-service v2" />
   </component>
 </project>

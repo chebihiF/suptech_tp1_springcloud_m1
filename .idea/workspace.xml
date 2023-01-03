@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b92eb7af-95a1-4112-858b-a293b35e8750" name="Changes" comment="add CustomerAPI.java">
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/config/CustomerConfig.java" afterDir="false" />
+    <list default="true" id="b92eb7af-95a1-4112-858b-a293b35e8750" name="Changes" comment="add CustomerConfig.java">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/dto/CustomerRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/dto/CustomerRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/dto/CustomerResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/dto/CustomerResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/suptech/customerservice/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <updated>1671562934838</updated>
       <workItem from="1671562937654" duration="6430000" />
       <workItem from="1671902450954" duration="951000" />
-      <workItem from="1672769413003" duration="2658000" />
+      <workItem from="1672769413003" duration="3817000" />
     </task>
     <task id="LOCAL-00001" summary="init customer-service">
       <created>1671564731365</created>
@@ -125,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672774661126</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add CustomerConfig.java">
+      <created>1672775066881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672775066881</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +155,7 @@
     <MESSAGE value="init customer-service v2" />
     <MESSAGE value="final version customer-service" />
     <MESSAGE value="add CustomerAPI.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CustomerAPI.java" />
+    <MESSAGE value="add CustomerConfig.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CustomerConfig.java" />
   </component>
 </project>

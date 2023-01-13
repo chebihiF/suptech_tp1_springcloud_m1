@@ -17,13 +17,25 @@
         </processorPath>
         <module name="customer-service" />
       </profile>
+      <profile name="Annotation profile for billing-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="billing-service" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="billing-service" target="11" />
       <module name="customer-service" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="billing-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
       <module name="customer-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
     </option>
   </component>
